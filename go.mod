@@ -1,3 +1,3 @@
-module github.com/askath/cloneAll
+module github.com/askath/ghcloneall
 
 go 1.22.0
