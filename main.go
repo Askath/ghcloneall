@@ -10,7 +10,7 @@ import (
 
 func main() {
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Print("Enter text: ")
+	fmt.Print("Enter Github Username or Organization: ")
 	username, _ := reader.ReadString('\n')
 	repos, err := getRepositories(username)
 	if err != nil {
